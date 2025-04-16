@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>Details about yourself go here.</p>
+      <ul>
+        <li>Detail 1</li>
+        <li>Detail 2</li>
+        <li>Detail 3</li>
+      </ul>
+      <p>Check out this video to learn more about my journey:</p>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="About Me Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="work">
+      <h2>Work</h2>
+      <p>Details about your work go here.</p>
+      <p>Listen to a brief overview of my projects:</p>
+      <audio controls>
+        <source src="path/to/sample.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+    </section>
+
+    <section class="Resume">
+      <h2>Resume</h2>
+      <p>Details about your resume go here.</p>
+      <ul>
+        <li>Experience 1</li>
+        <li>Experience 2</li>
+        <li>Experience 3</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>contact</h2>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" cols="50"></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Dada. All rights reserved.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
